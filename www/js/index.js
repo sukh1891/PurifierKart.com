@@ -25,32 +25,32 @@ $(document).ready(function() {
         $(".navexit").removeClass("show");
     });
     $(".carticon").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/cart/?app=true');
+        $(".iframe").attr('src', 'https://purifierkart.com/cart/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
     $(".home").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/?app=true');
+        $(".iframe").attr('src', 'https://purifierkart.com/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
     $(".products").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/all-products/?app=true');
+        $(".iframe").attr('src', 'https://purifierkart.com/all-products/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
     $(".purifier").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/product-category/water-purifiers/?app=true');
+        $(".iframe").attr('src', 'https://purifierkart.com/product-category/water-purifiers/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
     $(".kitchen").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/product-category/kitchen-appliances/?app=true');
+        $(".iframe").attr('src', 'https://purifierkart.com/product-category/kitchen-appliances/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
     $(".homeapp").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/product-category/home-appliances/?app=true');
+        $(".iframe").attr('src', 'https://purifierkart.com/product-category/home-appliances/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
@@ -61,12 +61,12 @@ $(document).ready(function() {
         $(".offer").fadeOut(100);
     });
     $(".contact").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/contact-us/?app=true');
+        $(".iframe").attr('src', 'https://purifierkart.com/contact-us/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
     $(".service").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/book-ro-service/?app=true');
+        $(".iframe").attr('src', 'https://purifierkart.com/book-ro-service/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
