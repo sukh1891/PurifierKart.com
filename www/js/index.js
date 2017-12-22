@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    $(window).load(function() {
+        $(".loading").fadeOut(100);
+    });
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
     }

@@ -4,14 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>PurifierKart.com</title>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/iframetracker.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
         <link href="css/index.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
     </head>
     <body onload="onLoad()">
+        <div class="loading"></div>
         <div class="nointernet">
             <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
             <br/>
@@ -30,7 +27,6 @@
             <a class="service">Book RO Service</a>
             <a class="exit">Exit App</a>
         </div>
-        <div class="loading"></div>
         <div class="navexit"></div>
         <div class="offer">
             <div id="offer"></div>
@@ -45,10 +41,13 @@
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 </div>
             </div>
-            <iframe frameborder="0" marginheight="0" marginwidth="0" id="iframe" class="iframe" src="http://purifierkart.com/?app=true"></iframe>
+            <iframe id="iframe" class="iframe" src="https://purifierkart.com/?app=android"></iframe>
             <div class="footer">
-                <a href="tel:+919876543210"><i class="fa fa-phone" aria-hidden="true"></i> <b>ORDER OVER PHONE</b></a>
+                <a href="tel:+919779361208"><i class="fa fa-phone" aria-hidden="true"></i> <b>ORDER OVER PHONE</b></a>
             </div>
         </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
