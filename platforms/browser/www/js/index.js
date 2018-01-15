@@ -11,14 +11,6 @@ $(document).ready(function() {
     function onOffline() {
         $(".nointernet").fadeIn(10);
     }
-    var url="https://purifierkart.com/app/loadoffer.php";
-    $.getJSON(url,function(result){
-        console.log(result);
-        $.each(result, function(i, field){
-            var offer=field.post_content;
-            $("#offer").append(offer);
-        });
-    });
     $(".navicon").click(function() {
         $(".nav").addClass("show");
         $(".navexit").addClass("show");
@@ -31,6 +23,7 @@ $(document).ready(function() {
         $(".iframe").attr('src', 'https://purifierkart.com/cart/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
+        $(".iframe").contents().find('iframe').contents().find(".loading").fadeIn(100);
     });
     $(".home").click(function() {
         $(".iframe").attr('src', 'https://purifierkart.com/?app=android');
@@ -58,6 +51,14 @@ $(document).ready(function() {
         $(".navexit").removeClass("show");
     });
     $(".offers").click(function() {
+        var url="https://purifierkart.com/app/loadoffer.php";
+        $.getJSON(url,function(result){
+            console.log(result);
+            $.each(result, function(i, field){
+                var offer=field.post_content;
+                $("#offer").append(offer);
+            });
+        });
         $(".offer").fadeIn(100);
     });
     $(".offerclose").click(function() {
@@ -69,7 +70,7 @@ $(document).ready(function() {
         $(".navexit").removeClass("show");
     });
     $(".service").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/book-ro-service/?app=android');
+        $(".iframe").attr('src', 'https://purifierkart.com/product-category/repair-services/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });

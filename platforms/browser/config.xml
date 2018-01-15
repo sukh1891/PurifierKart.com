@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ktech.purikart" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>PurifierKart.com</name>
+    <name>Kitchen Kart</name>
     <description>
-        Buy water purifiers, geysers, home appliances, kitchen appliances and much more using the Purifier Kart official app.
+        Kitchen Kart is a unit of Purifier Kart. Here you can buy water purifiers, geysers, home appliances, kitchen appliances and much more at the best possible prices. Download the app and avail special offers.
     </description>
     <author email="ceo@khuranatech.in" href="http://khuranatech.in">
         Khurana Technologies

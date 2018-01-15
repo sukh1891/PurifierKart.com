@@ -70,7 +70,7 @@ $(document).ready(function() {
         $(".navexit").removeClass("show");
     });
     $(".service").click(function() {
-        $(".iframe").attr('src', 'https://purifierkart.com/book-ro-service/?app=android');
+        $(".iframe").attr('src', 'https://purifierkart.com/product-category/repair-services/?app=android');
         $(".nav").removeClass("show");
         $(".navexit").removeClass("show");
     });
